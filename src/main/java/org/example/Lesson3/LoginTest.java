@@ -15,6 +15,7 @@ public class LoginTest {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
         options.addArguments("start-maximized");
+        options.addArguments("--remote-allow-origins=*");
 
         // Создание экземпляра WebDriver с переданными опциями
         WebDriver driver = new ChromeDriver(options);
