@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c6d3b59-776b-45e8-be8a-83b9785c9f14" name="Changes" comment="Initial commit" />
+    <list default="true" id="8c6d3b59-776b-45e8-be8a-83b9785c9f14" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson5/AbstractLiveJournalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson5/CreateNewPostTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson5/EditProfileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson5/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson5/LogoutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson5/SearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/Lesson3/LoginTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/Lesson3/LogoPresenceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/Lesson4/Triangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Lesson4/TestSuite$XMLReporter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Lesson4/TestSuite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Lesson4/TriangleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Lesson5/AbstractLiveJournalTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Lesson5/CreateNewPostTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Lesson5/EditProfileTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Lesson5/LoginTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Lesson5/LogoutTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Lesson5/SearchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +89,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "aws"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -72,78 +97,81 @@
       <recent name="C:\Users\dmard\IdeaProjects\MyProject\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestSuite">
-    <configuration name="AppMyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson4.AppMyTest" />
+  <component name="RunManager" selected="JUnit.CreateNewPostTest.testCreateNewPost">
+    <configuration name="CreateNewPostTest.testCreateNewPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson4.*" />
+          <option name="PATTERN" value="Lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.repeatedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson4" />
-      <option name="MAIN_CLASS_NAME" value="Lesson4.AppTest" />
-      <option name="METHOD_NAME" value="repeatedTest" />
+      <option name="PACKAGE_NAME" value="Lesson5" />
+      <option name="MAIN_CLASS_NAME" value="Lesson5.CreateNewPostTest" />
+      <option name="METHOD_NAME" value="testCreateNewPost" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EditProfileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson4.*" />
+          <option name="PATTERN" value="Lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson4" />
-      <option name="MAIN_CLASS_NAME" value="Lesson4.AppTest" />
-      <option name="METHOD_NAME" value="testApp" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson4" />
-      <option name="MAIN_CLASS_NAME" value="Lesson4.TestSuite" />
+      <option name="PACKAGE_NAME" value="Lesson5" />
+      <option name="MAIN_CLASS_NAME" value="Lesson5.EditProfileTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleTest.testCalculateArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.testSuccessfulLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson4.*" />
+          <option name="PATTERN" value="Lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson4" />
-      <option name="MAIN_CLASS_NAME" value="Lesson4.TriangleTest" />
-      <option name="METHOD_NAME" value="testCalculateArea" />
+      <option name="PACKAGE_NAME" value="Lesson5" />
+      <option name="MAIN_CLASS_NAME" value="Lesson5.LoginTest" />
+      <option name="METHOD_NAME" value="testSuccessfulLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogoutTest.testLogout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson5" />
+      <option name="MAIN_CLASS_NAME" value="Lesson5.LogoutTest" />
+      <option name="METHOD_NAME" value="testLogout" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTest.testSearchFunctionality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson5" />
+      <option name="MAIN_CLASS_NAME" value="Lesson5.SearchTest" />
+      <option name="METHOD_NAME" value="testSearchFunctionality" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestSuite" />
-        <item itemvalue="JUnit.TriangleTest.testCalculateArea" />
-        <item itemvalue="Application.AppMyTest" />
-        <item itemvalue="JUnit.AppTest.testApp" />
-        <item itemvalue="JUnit.AppTest.repeatedTest" />
+        <item itemvalue="JUnit.CreateNewPostTest.testCreateNewPost" />
+        <item itemvalue="JUnit.SearchTest.testSearchFunctionality" />
+        <item itemvalue="JUnit.LogoutTest.testLogout" />
+        <item itemvalue="JUnit.LoginTest.testSuccessfulLogin" />
+        <item itemvalue="JUnit.EditProfileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685823834790</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial commit">
+      <created>1685823851557</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685823851557</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,5 +234,25 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Lesson5/LogoutTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Lesson5.LogoutTest" memberName="driver" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
